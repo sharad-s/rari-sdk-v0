@@ -2,7 +2,7 @@
   "name": "rari-sdk-v0",
   "description": "Rari and Fuse SDK",
   "type": "module",
-  "version": "1.0.41",
+  "version": "1.0.42",
   "source": "src/index.ts",
   "main": "./dist/index.cjs",
   "module": "./dist/index.module.js",
@@ -35,6 +35,10 @@
     "dist/**/*"
   ],
   "dependencies": {
-    "ethers": "^5.4.4"
+    "big.js": "^6.0.3",
+    "axios": "^0.21.1"
+  },
+  "peerDependencies": {
+    "web3": "^1.2.11"
   }
 }

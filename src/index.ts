@@ -1,8 +1,7 @@
 // @ts-nocheck
-import { add, subtract } from './math';
-import { toLowerCase, toUpperCase } from './string';
+import Rari from './rari-sdk';
 
 const sayCheese = () => "cheese"
 const sayPoop = () => "poop"
 
-export { add, subtract, toLowerCase, toUpperCase, sayCheese, sayPoop };
+export { Rari, sayCheese, sayPoop };
