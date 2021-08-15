@@ -1,7 +1,6 @@
 // @ts-nocheck
 import Rari from './rari-sdk';
 
-const sayCheese = () => "cheese"
-const sayPoop = () => "poop"
+const poopALittleBit = () => "💩"
 
-export { Rari, sayCheese, sayPoop };
+export { Rari, poopALittleBit };
